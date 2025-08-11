@@ -30,7 +30,9 @@ The adaptive composer adjusts over time to keep focus sessions engaging and avoi
 
 ---
 
-### 1. Clone the repository
+### Local Deployment
+
+1. Clone the repository
 
     ```bash
     git clone https://github.com/YOUR_USERNAME/global-accelerator-2025.git
