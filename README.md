@@ -81,6 +81,7 @@ The adaptive composer adjusts over time to keep focus sessions engaging and avoi
     ```
 
 ## Running the Project:
+
 Make sure both backend and frontend are running at the same time in separate terminals.
 Open http://localhost:3000 in your browser to use Vibe Rooms.
 
