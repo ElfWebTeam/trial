@@ -10,8 +10,6 @@ Vibe Rooms is an AI-powered ambient sound and scene composer.
 Users can switch between different environments (mountain, forest, café, etc.) using voice commands, and the system automatically mixes background audio tracks to match the mood.  
 The adaptive composer adjusts over time to keep focus sessions engaging and avoid repetitive loops.
 
-**Chosen Track:** AI / Robotics
-
 ---
 
 ## Features
