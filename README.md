@@ -71,6 +71,7 @@ The adaptive composer adjusts over time to keep focus sessions engaging and avoi
    - axios
    - tailwindcss
    - (optional) react-icons if icons are used
+   
    Start the frontend:
    ```bash
    npm run dev
