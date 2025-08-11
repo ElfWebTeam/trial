@@ -1,5 +1,9 @@
 # Vibe Rooms
 
+## Track
+
+Soundwave
+
 ## Overview
 
 Vibe Rooms is an AI-powered ambient sound and scene composer.  
@@ -33,12 +37,13 @@ The adaptive composer adjusts over time to keep focus sessions engaging and avoi
 ### Local Deployment
 
 1. Clone the repository
+
    ```bash
    git clone https://github.com/YOUR_USERNAME/global-accelerator-2025.git
    cd global-accelerator-2025/00_HACKATHON-SUBMISSIONS/0123_Vibe-Rooms
    ```
 
-3. Navigate to the backend folder:
+2. Navigate to the backend folder:
    ```bash
    cd backend
    ```
@@ -54,31 +59,30 @@ The adaptive composer adjusts over time to keep focus sessions engaging and avoi
    openai
    uvicorn
    ```
-4. Create a .env file in the backend folder:
+3. Create a .env file in the backend folder:
    ```
    OPENAI_API_KEY=your_api_key_here
    ```
-5. Start the backend server:
+4. Start the backend server:
    ```bash
    uvicorn main:app --reload
    ```
-6. Open a new terminal and navigate to the frontend folder:
+5. Open a new terminal and navigate to the frontend folder:
    ```bash
    cd frontend
    npm install
    ```
    **Main dependencies** include:
-    - next 
-    - react 
-    - react-dom
-    - axios
-    - tailwindcss
-    - (optional) react-icons if icons are used
-    
-    Start the frontend:
-    ```bash
-    npm run dev
-    ```
+   - next
+   - react
+   - react-dom
+   - axios
+   - tailwindcss
+   - (optional) react-icons if icons are used
+     Start the frontend:
+   ```bash
+   npm run dev
+   ```
 
 ## Running the Project:
 
@@ -89,7 +93,29 @@ Open http://localhost:3000 in your browser to use Vibe Rooms.
 
 [youtu.be/EBglA4j3FNo](https://youtu.be/EBglA4j3FNo)
 
-## Team
+## Team Members
 
-Solo Developer: Gokhan Ceylan
-GitHub: ElfWebTeam
+- Gokhan Ceylan - [@ElfWebTeam](https://github.com/ElfWebTeam)
+
+## Technologies Used
+
+- Next.js 15
+- React
+- Tailwind CSS
+- Python 3.10
+- FastAPI
+- OpenAI API
+- Axios
+
+## Innovation & Impact
+
+Vibe Rooms combines AI-powered natural language understanding with real-time audio mixing,
+enabling users to create personalized sound environments instantly.
+It can be used for focus, relaxation, or immersive storytelling, and is designed to run fully client-side for privacy.
+
+## Future Plans
+
+- Add more ambient scenes and sound effects.
+- Introduce user-uploaded custom sounds.
+- Implement mood-based automatic scene changes.
+- Mobile app version for iOS and Android.
